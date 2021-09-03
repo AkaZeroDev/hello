@@ -17,8 +17,8 @@ IF (WIN32 AND "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
 ENDIF()
 
 install(
-    TARGETS greet,
-    COMPONENT linapp,
+    TARGETS greet
+    COMPONENT linapp
     LIBRARY DESTINATION .
     RUNTIME DESTINATION .
     DESTINATION .
